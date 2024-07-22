@@ -28,16 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop View](https://github.com/DevXtianM/Social-Links-Profile/blob/main/screenshot/desktop-view.png)
+![Mobile View](https://github.com/DevXtianM/Social-Links-Profile/blob/main/screenshot/mobile-view.png)
 
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: https://github.com/DevXtianM/Social-Links-Profile
+- Live Site URL: https://devxtianm.github.io/Social-Links-Profile/
 ## My process
   
 ### Built with
