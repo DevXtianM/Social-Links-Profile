@@ -31,83 +31,80 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Inter", sans-serif;
   background-color: hsl(0, 0%, 8%);
-  font-size: 14px;
-  height: 100svh;
 }
 
-.container {
-  height: 100%;
+main {
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 7rem 0;
+  padding: 1.5rem;
+  overflow: hidden;
 }
-.container .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
+
+section {
+  padding: 0.75rem;
+  border-radius: 10px;
   background-color: hsl(0, 0%, 12%);
   width: 350px;
-  padding: 38px 28px 8px 28px;
 }
-.container .user-info {
+section header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1.5rem;
 }
-.container .user-info img {
-  width: 80px;
-  height: 80px;
+section header img {
   border-radius: 50%;
+  width: 5rem;
+  margin-bottom: 1.5rem;
 }
-.container .user-info .user-name {
-  font-family: url(/assets/fonts/static/Inter-Bold.ttf);
-  font-size: 24px;
+section header h1 {
   color: hsl(0, 0%, 100%);
-  margin-top: 24px;
+  font-weight: 500;
 }
-.container .user-info .user-location {
+section header .user-location {
   color: hsl(75, 94%, 57%);
-  font-weight: 400;
+  font-size: 0.875rem;
 }
-.container .user-info .user-bio {
-  margin-top: 24px;
-  font-size: 12px;
+section header .user-bio {
   color: hsl(0, 0%, 100%);
-  font-weight: 400;
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
 }
-.container .user-social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 24px;
-  gap: 12px;
+section nav {
+  margin: 0 0.875rem;
 }
-.container .user-social .social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+section nav ul {
   text-align: center;
+  padding: 0;
+}
+section nav ul li {
+  list-style-type: none;
+  margin: 1rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+section nav ul li a {
+  display: block;
+  border-radius: 0.5rem;
+  padding: 0.65rem 0;
   text-decoration: none;
   color: hsl(0, 0%, 100%);
-  border-radius: 8px;
-  background-color: hsl(0, 0%, 20%);
-  width: 280px;
-  height: 42px;
+  font-weight: bold;
 }
-.container .user-social .social-link:hover {
+section nav ul li a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
-  font-weight: 800;
 }
-.container .user-social .social-link:focus {
+section nav ul li a:focus {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
-  font-weight: 800;
 }
-.container .footer {
+
+footer {
   position: fixed;
   bottom: 0;
   padding: 8px 8px 0px 8px;
@@ -116,7 +113,7 @@ body {
   font-weight: 400;
   background-color: hsl(0, 0%, 100%);
 }
-.container .footer a {
+footer a {
   font-weight: 800;
   text-decoration: none;
   color: hsl(0, 0%, 8%);
