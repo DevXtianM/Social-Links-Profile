@@ -61,3 +61,22 @@ Users should be able to:
 - GitHub - [@DevXtianM](https://github.com/DevXtianM)
 
 ## Acknowledgments
+  Thank you for this individual/s feedback :D
+[https://www.frontendmentor.io/profile/webdevbynight] (07/24)
+  *Link Text Styling
+      -Links should be permanently bold, not just on hover.
+    *HTML Semantics
+      -Footer: Wrap the attribution footer in a <footer> element.
+      -Main Content: Place the main content within a <main> element.
+      -Card Tagging: Use <article> or <section> for the card element.
+      -Reference: Check the MDN HTML elements reference for guidance.
+  *Relative Font Sizes
+      -Use relative units (e.g., em, rem) for font sizes instead of pixels to ensure accessibility, allowing users to zoom in on text.
+  *Relative Units
+      -Apply relative units for all dimensions (widths, paddings, margins, gaps) to make the design more flexible.
+  *Fixed Heights
+      -Avoid using fixed heights. Prefer min-height if setting a height is necessary.
+  *Viewport Height
+      -Use min-height: 100dvh to ensure the container occupies the full viewport height. Check the meaning of viewport-based relative length units if unfamiliar.
+  *CSS Variables
+      -Use CSS custom properties instead of Sass variables for color values.
